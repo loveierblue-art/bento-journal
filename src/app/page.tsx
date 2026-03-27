@@ -59,7 +59,7 @@ export default function BentoJournal() {
         >
           <div className="flex items-center gap-2 mb-2">
             <Code size={16} className="text-blue-400" />
-            <p className="text-[10px] opacity-40 uppercase font-bold tracking-widest">Mastering</p>
+            <p className="text-[10px] opacity-40 uppercase font-bold tracking-widest">Mastering 'aamiin'</p>
           </div>
           {['Figma', 'Blender 3D', 'Next.js', 'Tailwind', 'Laravel'].map((t, i) => (
             <motion.div 
@@ -122,7 +122,7 @@ export default function BentoJournal() {
         >
            <div className="flex justify-between items-center">
              <GraduationCap className="text-blue-400" />
-             <span className="text-[10px] font-mono opacity-50 italic">SEM ?</span>
+             <span className="text-[10px] font-mono opacity-50 italic">SEM</span>
            </div>
            <div>
               <div className="w-full bg-white/5 h-2 rounded-full mb-2">
