@@ -23,13 +23,13 @@ export default function BentoJournal() {
         <div className="absolute top-0 left-0 w-96 h-96 bg-purple-600 rounded-full blur-[150px]" />
       </div>
 
-      <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-4 auto-rows-[180px]">
+      <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-3 md:gap-4 auto-rows-[140px] md:auto-rows-[180px]">
         
         {/* CARD 1: PROFIl*/}
         <motion.div 
           whileHover={{ scale: 0.98, rotate: -1 }}
           whileTap={{ scale: 0.95 }}
-          className="md:col-span-2 md:row-span-2 bg-gradient-to-br from-indigo-900 via-slate-900 to-black rounded-[2.5rem] p-10 flex flex-col justify-end border border-white/10 cursor-pointer group"
+          className="col-span-2 row-span-2 md:col-span-2 md:row-span-2 bg-gradient-to-br from-indigo-900 via-slate-900 to-black rounded-[2rem] md:rounded-[2.5rem] p-6 md:p-10 flex flex-col justify-end border border-white/10"
         >
           <div className="bg-white/10 w-fit p-3 rounded-2xl mb-6 group-hover:rotate-12 transition-transform">
              <Sparkles className="text-yellow-400" size={40} />
@@ -45,7 +45,7 @@ export default function BentoJournal() {
         {/* CARD 2: LOKASI */}
         <motion.div 
           whileHover={{ scale: 1.05, rotate: 2 }}
-          className="bg-zinc-900/50 backdrop-blur-md rounded-[2rem] p-6 flex flex-col items-center justify-center border border-white/5"
+          className="col-span-1 bg-zinc-900/50 backdrop-blur-md rounded-[1.5rem] md:rounded-[2rem] p-4 md:p-6 flex flex-col items-center justify-center border border-white/5"
         >
           <Map className="text-green-400 mb-2 animate-bounce" />
           <span className="font-black tracking-[0.2em] text-xl italic uppercase">Ternate</span>
@@ -55,7 +55,7 @@ export default function BentoJournal() {
         {/* CARD 3: THE FLEX BOX HH */}
         <motion.div 
           whileHover={{ scale: 1.05, rotate: -2 }}
-          className="md:row-span-2 bg-zinc-900/50 backdrop-blur-md rounded-[2rem] p-6 flex flex-col gap-3 border border-white/5"
+          className="col-span-1 row-span-2 bg-zinc-900/50 backdrop-blur-md rounded-[1.5rem] md:rounded-[2rem] p-4 md:p-6 flex flex-col gap-2 md:gap-3 border border-white/5"
         >
           <div className="flex items-center gap-2 mb-2">
             <Code size={16} className="text-blue-400" />
