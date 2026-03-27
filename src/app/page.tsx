@@ -122,7 +122,7 @@ export default function BentoJournal() {
         >
            <div className="flex justify-between items-center">
              <GraduationCap className="text-blue-400" />
-             <span className="text-[10px] font-mono opacity-50 italic">SEM 8</span>
+             <span className="text-[10px] font-mono opacity-50 italic">SEM ?</span>
            </div>
            <div>
               <div className="w-full bg-white/5 h-2 rounded-full mb-2">
